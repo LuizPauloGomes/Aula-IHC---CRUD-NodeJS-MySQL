@@ -1,0 +1,25 @@
+<head>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    
+</head>
+<form method="POST">
+    <div class="table">
+        Nome: <input name="nome" value="<%=contato.nome %>" />
+    </div>
+    <div class="table">
+        E-mail: <input name="email" value="<%=contato.email %>" />
+    </div>
+    <div class="table">
+        telefone: <input name="telefone" value="<%=contato.telefone %>" />
+    </div>
+    <div class="table">
+        Rede Social: <input name="rede_social" value="<%=contato.rede_social %>" />
+    </div>
+    <input type="submit" value="Salvar" style="font-size: larger;" />
+    <input type="hidden" value=value="<%=contato.id %>" />
+    <input type="hidden" value=value="<%=contato.nome %>" />
+    <input type="hidden" value=value="<%=contato.email %>" />
+    <input type="hidden" value=value="<%=contato.telefone %>" />
+    <input type="hidden" value=value="<%=contato.rede_social %>" />
+</form>

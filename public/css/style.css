@@ -1,0 +1,33 @@
+*{
+}
+H1{
+    font: 32px Arial, sans-serif;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+}
+thead{
+    font-size: medium;
+}
+a {
+    text-align: center;
+    margin-bottom: auto;
+  }
+
+div {
+    font: 32px Arial, sans-serif;
+    margin: 64px 0 32px;
+  }
+form {
+
+padding: 96px;
+background: #f0f0f5;
+box-shadow: 0 0 100px rgba(0, 0, 0, 0.1 );
+border-radius: 8px;
+        
+    
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
